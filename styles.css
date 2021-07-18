@@ -8,6 +8,7 @@
 
 body{
     background: linear-gradient(to right, #8e9eab, #eef2f3);
+    overflow: hidden;
 }
 
 
@@ -17,11 +18,17 @@ nav{
     color: white;
 }
 
+
 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
     padding: 10px;
     text-align: center;
 }
-
 
 .box h1{
     text-align: center;
@@ -29,14 +36,14 @@ nav{
 }
 
 .colours{
-    margin: 150px auto;
+    margin:  auto;
     display: flex;
     justify-content: space-around;
     color: white;
 }
 
 button{
-    margin: 20px;
+    margin: 50px auto;
     width: 150px;
     height: 50px;
     border-radius: 20px;
